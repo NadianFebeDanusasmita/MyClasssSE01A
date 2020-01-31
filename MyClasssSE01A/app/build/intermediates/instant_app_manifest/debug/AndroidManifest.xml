@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="danu.sasmita.myclasss_se_01_a"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="29" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="MyClasssSE01A.DetailData"
+            android:parentActivityName="MyClasssSE01A.DetailData" />
+        <activity
+            android:name="MyClasssSE01A.UpdateData"
+            android:parentActivityName="MyClasssSE01A.UpdateData" />
+        <activity
+            android:name="MyClasssSE01A.DataMahasiswa"
+            android:parentActivityName="MyClasssSE01A.DataMahasiswa" />
+        <activity
+            android:name="MyClasssSE01A.Informasi"
+            android:parentActivityName="MyClasssSE01A.Informasi" />
+        <activity
+            android:name="MyClasssSE01A.InputData"
+            android:parentActivityName="MyClasssSE01A.InputData" />
+        <activity android:name="MyClasssSE01A.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

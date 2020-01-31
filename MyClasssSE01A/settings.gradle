@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='MyClasss-SE-01-A'

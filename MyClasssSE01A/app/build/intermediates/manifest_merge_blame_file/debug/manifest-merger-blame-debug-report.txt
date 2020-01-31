@@ -1,0 +1,76 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="danu.sasmita.myclasss_se_01_a"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:5:6-32:20
+12        android:allowBackup="true"
+12-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:6:6-32
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:7:6-40
+16        android:label="@string/app_name"
+16-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:8:6-38
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:9:6-51
+18        android:supportsRtl="true"
+18-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:10:6-32
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:11:6-37
+20        <activity
+20-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:12:6-13:48
+21            android:name="MyClasssSE01A.DetailData"
+21-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:12:16-42
+22            android:parentActivityName="MyClasssSE01A.DetailData" />
+22-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:13:6-46
+23        <activity
+23-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:14:6-15:48
+24            android:name="MyClasssSE01A.UpdateData"
+24-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:14:16-42
+25            android:parentActivityName="MyClasssSE01A.UpdateData" />
+25-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:15:6-46
+26        <activity
+26-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:16:6-18:52
+27            android:name="MyClasssSE01A.DataMahasiswa"
+27-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:17:6-35
+28            android:parentActivityName="MyClasssSE01A.DataMahasiswa" />
+28-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:18:6-49
+29        <activity
+29-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:19:6-21:48
+30            android:name="MyClasssSE01A.Informasi"
+30-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:20:6-31
+31            android:parentActivityName="MyClasssSE01A.Informasi" />
+31-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:21:6-45
+32        <activity
+32-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:22:6-24:48
+33            android:name="MyClasssSE01A.InputData"
+33-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:23:6-31
+34            android:parentActivityName="MyClasssSE01A.InputData" />
+34-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:24:6-45
+35        <activity android:name="MyClasssSE01A.MainActivity" >
+35-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:25:6-31:13
+35-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:25:16-44
+36            <intent-filter>
+36-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:26:2-30:22
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:27:6-58
+37-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:27:14-55
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:29:6-66
+39-->C:\Users\Dian.Danu\AndroidStudioProjects\MyClasssSE01A\app\src\main\AndroidManifest.xml:29:16-63
+40            </intent-filter>
+41        </activity>
+42    </application>
+43
+44</manifest>
